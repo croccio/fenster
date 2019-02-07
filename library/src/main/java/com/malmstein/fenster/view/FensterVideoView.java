@@ -795,4 +795,7 @@ public class FensterVideoView extends TextureView implements MediaController.Med
         this.onPlayStateListener = onPlayStateListener;
     }
 
+    public MediaPlayer getmMediaPlayer() {
+        return mMediaPlayer;
+    }
 }
